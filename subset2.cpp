@@ -1,3 +1,8 @@
+/*
+*https://leetcode.com/problems/subsets/
+*(using bit masking)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
