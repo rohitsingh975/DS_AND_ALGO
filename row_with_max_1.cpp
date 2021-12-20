@@ -39,9 +39,9 @@ int main() {
 
 #ifndef ONLINE_JUDGE
 	// for getting input from input.txt
-	freopen("input1.txt", "r", stdin);
+	freopen("Input.txt", "r", stdin);
 	// for writing output to output1.txt
-	freopen("output1.txt", "w", stdout);
+	freopen("Output.txt", "w", stdout);
 #endif
 
 	int n, m;
@@ -49,7 +49,7 @@ int main() {
 	vector<vector<int>> arr(n, vector<int>(m));
 
 	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++) {
+		for (int j = 0; j < m; j++) {
 			cin >> arr[i][j];
 		}
 	}
